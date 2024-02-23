@@ -1,0 +1,1 @@
+console.log("Este arquivo contem esse codigo");
