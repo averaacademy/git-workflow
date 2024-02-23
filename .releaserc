@@ -1,0 +1,9 @@
+{
+    "branches": ["main"],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator"
+    ],
+    "repositoryUrl": "file:///mnt/d/workspace/avera-cursos/git-workflow/modulo-05-conventional-commits/git-site/.git"
+
+}
