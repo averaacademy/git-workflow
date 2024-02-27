@@ -1,11 +1,11 @@
+
 {
     "branches": ["main"],
     "plugins": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
-    	"@semantic-release/git"
-    ],
-    "repositoryUrl": "file:///mnt/d/workspace/avera-cursos/git-workflow/modulo-05-conventional-commits/git-site/.git"
-
+    	"@semantic-release/git",
+    	"@semantic-release/github"
+    ]
 }
