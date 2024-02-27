@@ -15,13 +15,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-        token: ${{ secrets.PAT }}
-
-    - uses: actions/setup-node@v4
-      with:
-        node-version: 18
       
     - name: Semantic Release
       uses: cycjimmy/semantic-release-action@v4
@@ -30,4 +23,4 @@ jobs:
                                   # for semantic-release when using
                                   # semantic-release-action lower than @v4
       env:
-        GITHUB_TOKEN: ${{ secrets.PAT }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
