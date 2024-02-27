@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/averaacademy/git-workflow/compare/v1.0.0...v1.0.1) (2024-02-27)
+
+
+### Bug Fixes
+
+* releaserc ([#20](https://github.com/averaacademy/git-workflow/issues/20)) ([f8ff883](https://github.com/averaacademy/git-workflow/commit/f8ff883e1e50c96e908cae7167534742c3e481ae))
+
 # 1.0.0 (2024-02-27)
 
 
