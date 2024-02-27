@@ -4,7 +4,8 @@
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
-    	"@semantic-release/git"
+    	"@semantic-release/git",
+        "@semantic-release/github"
     ],
     "repositoryUrl": "file:///mnt/d/workspace/avera-cursos/git-workflow/modulo-05-conventional-commits/git-site/.git"
 

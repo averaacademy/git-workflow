@@ -1,0 +1,19 @@
+{
+  "name": "git-site",
+  "version": "1.0.0",
+  "description": "O website estático que faz parte do curso GIT.",
+  "main": "server.js",
+  "scripts": {
+    "preparecommimsg": "shx cp commit-msg .git/hooks/",
+    "prestart": "npm run preparecommimsg",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4"
+  }
+}
