@@ -27,4 +27,5 @@ jobs:
         extra_plugins: |
           @semantic-release/github
       env:
-        GITHUB_TOKEN: ${{ secrets.PAT }}
+        GH_TOKEN: ${{ secrets.PAT }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
